@@ -77,7 +77,7 @@ public class JUnitAdaptor extends LoadTestBase {
         		reportProgress("testFinished: " + description);
         		// Only report result if test has not already failed  
         		if (awaitingResult == true) {
-        			addResult("pass", platform, description, null, null);
+        			addResult("abcdefghijklmnopqrstuvwxyz", platform, description, null, null);
         			awaitingResult = false;
         		}
         	}
